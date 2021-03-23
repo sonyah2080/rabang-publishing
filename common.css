@@ -11,6 +11,25 @@ p {
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
+a:visited{
+  color: #323232;
+}
+
+.header {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.h-title {
+  font-weight: bold;
+  font-size: 1.13rem;
+}
 
 .container {
   position: relative;
@@ -33,12 +52,40 @@ p {
 
 .txt-caption {
   font-size: 0.88rem;
+  text-align: left;
   font-weight: bold;
 }
 
 .txt-des {
-  padding: 1rem;
   text-align: left;
+}
+
+.txt-subs-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.txt-subs-cont {
+  margin-top: 1rem;
+}
+
+.tb-menu {
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 2rem;
+}
+
+.tb-text {
+  flex: 1;
+}
+
+.border-t-b {
+  border-top: 1px solid #F3F3F3;
+  border-bottom: 1px solid #F3F3F3;
 }
 
 .btn {
@@ -81,6 +128,15 @@ p {
   border: 2px solid #fff;
 }
 
+.img-sizew {
+  width: 100%;
+  max-height: 600px;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+
 
 .red {
   color: #EE3050;
@@ -92,4 +148,43 @@ p {
 
 .secondary-color {
   color: #FF8F1C;
+}
+
+.gray {
+  color: #9B9B9B;
+}
+
+
+.mt72 {
+  margin-top: 4rem;
+}
+
+.mb72 {
+  margin-bottom: 4rem;
+}
+
+.pa16 {
+  padding: 1rem;
+}
+
+.pl16 {
+  padding-left: 1rem;
+}
+
+.pr16 {
+  padding-right: 1rem;
+}
+
+.pb16 {
+  padding-bottom: 1rem;
+}
+
+.txtl {
+  text-align: left;
+}
+.txtc {
+  text-align: center;
+}
+.txtr {
+  text-align: right;
 }
