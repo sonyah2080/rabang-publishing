@@ -1,0 +1,95 @@
+html, body {
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 650px;
+  line-height: 1.5;
+  color: #323232;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.txt-header {
+  margin: 0;
+  padding: 0 0 0 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.txt-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.txt-caption {
+  font-size: 0.88rem;
+  font-weight: bold;
+}
+
+.txt-des {
+  padding: 1rem;
+  text-align: left;
+}
+
+.btn {
+  display: block;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  background-color: #00B9EF;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-gray {
+  background: #fff;
+  color: #323232;
+  border: 1px solid #C3C3C3;
+}
+
+.btn-blue {
+  background: #fff;
+  color: #00B9EF;
+  border: 1px solid #00B9EF;
+}
+
+.input:active {
+  color: #323232;
+  border: 1px solid #00B9EF;
+}
+
+.input::placeholder {
+  color: #9B9B9B;
+  border: 1px solid #C3C3C3;
+}
+
+.img-oval {
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+
+.red {
+  color: #EE3050;
+}
+
+.blue {
+  color: #00B9EF;
+}
+
+.secondary-color {
+  color: #FF8F1C;
+}
