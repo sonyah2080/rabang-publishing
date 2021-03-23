@@ -10,11 +10,6 @@ body {
   justify-content: space-between;
 }
 
-.wrap-content {
-  text-align: left;
-}
-
-
 .right-img .txt-caption {
   font-weight: normal;
   font-size: 0.75rem;
@@ -44,7 +39,6 @@ body {
   font-size: 1.13rem;
   font-weight: bold;
   vertical-align: middle;
-  display: block;
 }
 
 .txt-des {

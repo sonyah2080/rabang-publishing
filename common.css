@@ -1,10 +1,12 @@
 html, body {
   padding: 0;
+  letter-spacing: -0.2px;
   text-align: center;
   margin: 0 auto;
   max-width: 650px;
   line-height: 1.5;
   color: #323232;
+  overflow-x: hidden;
 }
 
 p {
@@ -97,16 +99,23 @@ a:visited{
   background-color: #00B9EF;
   margin: 0 1rem;
   text-decoration: none;
-  color: #fff;
 }
 
-.btn-gray {
+.btn-gray-outline {
   background: #fff;
   color: #323232;
   border: 1px solid #C3C3C3;
 }
 
-.btn-blue {
+.btn-blue:visited {
+  color: #fff;
+}
+
+.btn-blue:link {
+  color: #fff;
+}
+
+.btn-blue-outline {
   background: #fff;
   color: #00B9EF;
   border: 1px solid #00B9EF;
