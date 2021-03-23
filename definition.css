@@ -1,0 +1,25 @@
+.red {color: #EE3050;}
+.blue {color: #00B9EF;}
+.secondary-color {color: #FF8F1C;}
+.gray {color: #9B9B9B;}
+
+.ma16 {margin: 1rem;}
+.ml16 {margin-left: 1rem;}
+.mr16 {margin-right: 1rem;}
+.mt16 {margin-top: 1rem;}
+.mb16 {margin-bottom: 1rem;}
+
+.mt72 {margin-top: 4rem;}
+.mb72 {margin-bottom: 4rem;}
+
+
+.pa16 {padding: 1rem;}
+.pl16 {padding-left: 1rem;}
+.pr16 {padding-right: 1rem;}
+.pb16 {padding-bottom: 1rem;}
+.pt16 {padding-top: 1rem;}
+
+
+.txtl {text-align: left;}
+.txtc {text-align: center;}
+.txtr {text-align: right;}
