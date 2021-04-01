@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/definition.css" />
+    <link rel="stylesheet" type="text/css" href="./css/order-payment.css" />
+
+    <title></title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="#" class="h-first" style="visibility: hidden;"><img src="./assets/chevron_left.svg"/></a>
+      <a href="#" class="h-last"/><img src="./assets/close.svg"></a>
+      <p class="h-title">주문/결제</p>
+    </div>
+
+    <div class="wrap-container">
+      <!--주문상품-->
+      <div class="wrap-contents pt32 pb24 pl16 pr16">
+        <p class="txt-title">주문 상품 (<span class="blue">1</span>)</p>
+        <div class="wrap-img mt16">
+          <img class="img-border-rect" src="./assets/img3.jpeg" alt="" />
+          <div class="wrap-txt pl16">
+            <p class="txtl">헤지스 한해를 마무리하는 특별선물</p>
+            <p class="txt-caption gray">수량: 1개</p>
+            <p class="txt-title mt2">29,000원</p>
+          </div>
+        </div>
+      </div>
+      <!--배송지입-->
+      <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
+        <p class="txt-title">배송지 입력</p>
+
+        <select class="mt16" required="required">
+          <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
+          <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
+          <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
+        </select>
+
+        <a class="btn btn-blue-outline mt16">+ 배송지 추가</a>
+
+        <div class="wrap-input mt24">
+          <label class="txtl txt-input" for="input">요구사항</label>
+          <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+        </div>
+      </div>
+
+
+      <!--결제정보-->
+      <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
+        <p class="txt-title">결제방식</p>
+        <select class="mt16" required="required" disabled>
+          <option value="card">카드 결제</option>
+        </select>
+      </div>
+
+      <!--결제금액-->
+      <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
+        <p class="txt-title">최종 결제금액</p>
+        <div class="wrap-payment mt16">
+          <p>총 주문 금액</p>
+          <p class="txtbold">29,000원</p>
+        </div>
+        <div class="wrap-payment mt16">
+          <p>총 배송비</p>
+          <p class="txtbold">3,000원</p>
+        </div>
+
+        <hr />
+
+        <div class="wrap-payment mt16 mb72">
+          <p>총 결제금액</p>
+          <p class="txt-title blue">32,000원</p>
+        </div>
+      </div>
+
+      <div class="bt-fixed">
+        <a href="#" class="btn btn-rect">결제하기</a>
+      </div>
+    </div>
+  </body>
+</html>
