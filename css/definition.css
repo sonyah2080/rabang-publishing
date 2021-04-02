@@ -5,17 +5,30 @@
 .light-gray {color: #F3F3F3;}
 
 .ma16 {margin: 1rem;}
+
+.ml12 {margin-left: .75rem}
 .ml16 {margin-left: 1rem;}
+.ml24 {margin-left: 1.5rem;}
+
+
+.mr12 {margin-right: .75rem;}
 .mr16 {margin-right: 1rem;}
+
+
+.mb12 {margin-bottom: .75rem;}
 .mb16 {margin-bottom: 1rem;}
+.mb72 {margin-bottom: 4rem;}
+
 
 .mt2 {margin-top: 2px;}
+.mt4 {margin-top: .25rem;}
+.mt8 {margin-top: .5rem;}
 .mt12 {margin-top: .75rem;}
 .mt16 {margin-top: 1rem;}
 .mt24 {margin-top: 1.5rem;}
 .mt32 {margin-top: 2rem;}
 .mt72 {margin-top: 4rem;}
-.mb72 {margin-bottom: 4rem;}
+
 
 
 .pa16 {padding: 1rem;}
@@ -36,3 +49,40 @@
 
 .txtbold {font-weight: bold;}
 .txtnorm {font-weight: normal;}
+
+
+
+.imgxs {width: 18px; height: 18px; vertical-align: middle;}
+.imgs {width: 24px; height: 24px; vertical-align: middle;}
+
+
+.underline {
+  text-decoration: underline;
+  color: #00B9EF !important;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #D8D8D8;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  flex-flow: row nowrap;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.middle {
+  vertical-align: middle;
+}
