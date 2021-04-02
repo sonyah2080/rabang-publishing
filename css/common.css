@@ -40,6 +40,18 @@ li {
   padding-right: 1rem;
 }
 
+.full-popup {
+  border-radius: 20px 20px 0 0;
+  height: 100%;
+  background-color: #fff;
+  color: #323232;
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+
 .popup-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -111,13 +123,17 @@ li {
   justify-content: space-between;
 }
 
-.txt-badge {
+.badge {
   padding: 0.2rem;
   font-size: 0.88rem;
   color: #9B9B9B;
   border: 1px solid #CCCCCC;
 }
 
+.blue-outline {
+  border: 1px solid #00B9EF;
+  color: #00B9EF;
+}
 
 
 .tb-menu {
@@ -295,4 +311,8 @@ input::placeholder {
   width: 100%;
   font-size: 0.88rem;
   color: #323232;
+}
+
+.chbx {
+  vertical-align: middle;
 }

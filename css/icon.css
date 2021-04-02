@@ -59,3 +59,11 @@
 .icon-volume-up {
   background: url('../assets/volume_up.svg') no-repeat;
 }
+
+.icon-check{
+  background: url('../assets/check.svg') no-repeat;
+}
+
+.icon-check-b{
+  background: url('../assets/check_blue.svg') no-repeat;
+}
