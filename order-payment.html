@@ -34,17 +34,62 @@
       <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
         <p class="txt-title">배송지 입력</p>
 
-        <select class="mt24" required="required">
-          <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
-          <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
-          <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
-        </select>
+        <div class="wrap-input mt24 w-100 mr8">
+          <label class="txtl txt-input" for="input">이름</label>
+          <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+        </div>
+
+        <div class="wrap-input mt24">
+          <label class="txtl txt-input" for="select">배송지</label>
+          <select class="mt12 select" required="required">
+            <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
+            <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
+            <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
+          </select>
+        </div>
 
         <a class="btn btn-blue-outline mt16">+ 배송지 추가</a>
 
         <div class="wrap-input mt24">
           <label class="txtl txt-input" for="input">요구사항</label>
           <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+        </div>
+      </div>
+
+      <!--해외배송지입-->
+      <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
+        <p class="txt-title">해외 배송지 입력</p>
+        <div class="flex row f-between">
+          <div class="wrap-input mt24 w-100 mr8">
+            <label class="txtl txt-input" for="input">Last name</label>
+            <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+          </div>
+          <div class="wrap-input mt24 w-100 ml8">
+            <label class="txtl txt-input" for="input">Fisrt name</label>
+            <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+          </div>
+        </div>
+        <div class="wrap-input mt24">
+          <label class="txtl txt-input" for="input">Street Adress1</label>
+          <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+        </div>
+        <div class="wrap-input mt16">
+          <label class="txtl txt-input" for="input">Street Adress2</label>
+          <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+        </div>
+        <div class="wrap-input mt16">
+          <label class="txtl txt-input" for="input">city</label>
+          <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+        </div>
+        <div class="flex row f-between">
+          <div class="wrap-input mt24 w-100 mr8">
+            <label class="txtl txt-input" for="input">State</label>
+            <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+          </div>
+          <div class="wrap-input mt24 w-100 ml8">
+            <label class="txtl txt-input" for="input">ZIP code</label>
+            <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
+          </div>
         </div>
       </div>
 
