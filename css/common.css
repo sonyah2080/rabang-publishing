@@ -50,6 +50,7 @@ li {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 2rem;
+  position: relative;
 }
 
 .popup-title {
@@ -315,4 +316,8 @@ input::placeholder {
 
 .chbx {
   vertical-align: middle;
+}
+
+.bx-bor-radius {
+  border-radius: 8px;
 }

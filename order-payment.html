@@ -13,7 +13,7 @@
   <body>
     <div class="header">
       <a href="#" class="h-first" visibility="hidden"><i class="icon icon-chevron-left"></i></a>
-      <a href="#" class="h-last" /><i class="icon icon-close"></i></a>
+      <a href="#" class="h-last" ><i class="icon icon-close"></i></a>
       <p class="h-title">주문/결제</p>
     </div>
 
@@ -21,7 +21,7 @@
       <!--주문상품-->
       <div class="wrap-contents pt32 pb24 pl16 pr16">
         <p class="txt-title">주문 상품 (<span class="blue">1</span>)</p>
-        <div class="wrap-img mt16">
+        <div class="wrap-img mt24">
           <img class="img-border-rect" src="./assets/img3.jpeg" alt="" />
           <div class="wrap-txt pl16">
             <p class="txtl">헤지스 한해를 마무리하는 특별선물</p>
@@ -34,7 +34,7 @@
       <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
         <p class="txt-title">배송지 입력</p>
 
-        <select class="mt16" required="required">
+        <select class="mt24" required="required">
           <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
           <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
           <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
@@ -52,7 +52,7 @@
       <!--결제정보-->
       <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
         <p class="txt-title">결제방식</p>
-        <select class="mt16" required="required" disabled>
+        <select class="mt24" required="required" disabled>
           <option value="card">카드 결제</option>
         </select>
       </div>
@@ -60,7 +60,7 @@
       <!--결제금액-->
       <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
         <p class="txt-title">최종 결제금액</p>
-        <div class="wrap-payment mt16">
+        <div class="wrap-payment mt24">
           <p>총 주문 금액</p>
           <p class="txtbold">29,000원</p>
         </div>
@@ -69,7 +69,7 @@
           <p class="txtbold">3,000원</p>
         </div>
 
-        <hr />
+        <hr class="mt24 mb24"/>
 
         <div class="wrap-payment mt16 mb72">
           <p>총 결제금액</p>
@@ -80,6 +80,30 @@
       <div class="bt-fixed">
         <a href="#" class="btn btn-rect">결제하기</a>
       </div>
+    </div>
+
+
+    <div class="popup-bottom">
+      <div class="wrap-title flex row f-between">
+        <p class="popup-title">배송지 추가</p>
+        <img class="middle" src="./assets/close.svg" />
+      </div>
+      <div class="wrap-input mt24">
+        <label class="txtl txt-input" for="input">배송지명</label>
+        <input class="mt12" type="text" placeholder="배송지명을 입력해주세요." />
+      </div>
+      <div class="wrap-input mt16">
+        <label class="txtl txt-input" for="input">기본주소</label>
+        <div class="search-inp flex row mt12">
+          <input class="mr8 flex-3" type="text" placeholder="102호." disabled/>
+          <a class="btn btn-blue-outline ml8 flex-1">검색</a>
+        </div>
+      </div>
+      <div class="wrap-input mt24">
+        <label class="txtl txt-input" for="input">상세주소</label>
+        <input class="mt12" type="text" placeholder="상세주소를 입력해주세요." />
+      </div>
+      <a class="btn btn-blue mt24">배송지 추가</a>
     </div>
   </body>
 </html>

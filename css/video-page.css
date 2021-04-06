@@ -57,3 +57,35 @@ body {
   font-weight: normal;
   opacity: .6;
 }
+
+
+.flex-l {
+  display: flex;
+  align-items: left;
+}
+
+.wrap-price {
+  flex: 2
+}
+
+
+.all-price {
+  justify-content:flex-end;
+}
+
+.btn-order {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.btn-selc {
+  border-top: 1px solid #FF8F1C;
+  color: #FF8F1C !important;
+  background: #fff;
+}
+
+
+.txt-list {
+  flex: 2;
+}
