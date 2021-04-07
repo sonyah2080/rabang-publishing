@@ -67,3 +67,11 @@
 .icon-check-b{
   background: url('../assets/check_blue.svg') no-repeat;
 }
+
+.icon-alt-check {
+  background: url('../assets/alert_check.svg') no-repeat;
+}
+
+.icon-alt-quest {
+  background: url('../assets/alert_quest.svg') no-repeat;
+}
