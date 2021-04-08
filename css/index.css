@@ -30,6 +30,7 @@
   flex-flow: row nowrap;
   justify-content: space-between;
 }
+
 .wrap-oval {
   display: flex;
   flex: row nowrap;
@@ -71,13 +72,9 @@
   font-size: 0.75rem;
 }
 
-.img-alert {
-  width: 24px;
-  height: 24px;
-}
 
 
-.txt-des span {
+.txtl span {
   font-weight: bold;
 }
 

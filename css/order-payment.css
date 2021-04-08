@@ -6,11 +6,6 @@ body {
   background-color: #fff;
 }
 
-.wrap-img {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
 
 .txt-caption {
   font-weight: normal;

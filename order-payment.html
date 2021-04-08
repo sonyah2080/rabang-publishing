@@ -12,8 +12,8 @@
   </head>
   <body>
     <div class="header">
-      <a href="#" class="h-first" visibility="hidden"><i class="icon icon-chevron-left"></i></a>
-      <a href="#" class="h-last" ><i class="icon icon-close"></i></a>
+      <a href="#" class="f-left" visibility="hidden"><i class="icon icon-chevron-left"></i></a>
+      <a href="#" class="f-right" ><i class="icon icon-close"></i></a>
       <p class="h-title">주문/결제</p>
     </div>
 
@@ -21,7 +21,7 @@
       <!--주문상품-->
       <div class="wrap-contents pt32 pb24 pl16 pr16">
         <p class="txt-title">주문 상품 (<span class="blue">1</span>)</p>
-        <div class="wrap-img mt24">
+        <div class="flex row mt24">
           <img class="img-border-rect" src="./assets/img3.jpeg" alt="" />
           <div class="wrap-txt pl16">
             <p class="txtl">헤지스 한해를 마무리하는 특별선물</p>
@@ -34,12 +34,12 @@
       <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
         <p class="txt-title">배송지 입력</p>
 
-        <div class="wrap-input mt24 w-100 mr8">
+        <div class="flex col mt24 w-100 mr8">
           <label class="txtl txt-input" for="input">이름</label>
           <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
         </div>
 
-        <div class="wrap-input mt24">
+        <div class="flex col mt24">
           <label class="txtl txt-input" for="select">배송지</label>
           <select class="mt12 select" required="required">
             <option value="">[집] 서초구 효령로 27번길 21, 1035호</option>
@@ -50,7 +50,7 @@
 
         <a class="btn btn-blue-outline mt16">+ 배송지 추가</a>
 
-        <div class="wrap-input mt24">
+        <div class="flex col mt24">
           <label class="txtl txt-input" for="input">요구사항</label>
           <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
         </div>
@@ -60,33 +60,33 @@
       <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
         <p class="txt-title">해외 배송지 입력</p>
         <div class="flex row f-between">
-          <div class="wrap-input mt24 w-100 mr8">
+          <div class="flex col mt24 w-100 mr8">
             <label class="txtl txt-input" for="input">Last name</label>
             <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
           </div>
-          <div class="wrap-input mt24 w-100 ml8">
+          <div class="flex col mt24 w-100 ml8">
             <label class="txtl txt-input" for="input">Fisrt name</label>
             <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
           </div>
         </div>
-        <div class="wrap-input mt24">
+        <div class="flex col mt24">
           <label class="txtl txt-input" for="input">Street Adress1</label>
           <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
         </div>
-        <div class="wrap-input mt16">
+        <div class="flex col mt16">
           <label class="txtl txt-input" for="input">Street Adress2</label>
           <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
         </div>
-        <div class="wrap-input mt16">
+        <div class="flex col mt16">
           <label class="txtl txt-input" for="input">city</label>
           <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
         </div>
         <div class="flex row f-between">
-          <div class="wrap-input mt24 w-100 mr8">
+          <div class="flex col mt24 w-100 mr8">
             <label class="txtl txt-input" for="input">State</label>
             <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
           </div>
-          <div class="wrap-input mt24 w-100 ml8">
+          <div class="flex col mt24 w-100 ml8">
             <label class="txtl txt-input" for="input">ZIP code</label>
             <input class="mt12" type="text" placeholder="요구사항을 입력해주세요." />
           </div>
@@ -105,18 +105,18 @@
       <!--결제금액-->
       <div class="wrap-contents mt16 pt24 pb24 pl16 pr16">
         <p class="txt-title">최종 결제금액</p>
-        <div class="wrap-payment mt24">
+        <div class="flex row f-between mt24">
           <p>총 주문 금액</p>
           <p class="txtbold">29,000원</p>
         </div>
-        <div class="wrap-payment mt16">
+        <div class="flex row f-between mt16">
           <p>총 배송비</p>
           <p class="txtbold">3,000원</p>
         </div>
 
         <hr class="mt24 mb24"/>
 
-        <div class="wrap-payment mt16 mb72">
+        <div class="flex row f-between mt16 mb72">
           <p>총 결제금액</p>
           <p class="txt-title blue">32,000원</p>
         </div>
@@ -133,18 +133,18 @@
         <p class="popup-title">배송지 추가</p>
         <img class="middle" src="./assets/close.svg" />
       </div>
-      <div class="wrap-input mt24">
+      <div class="flex col mt24">
         <label class="txtl txt-input" for="input">배송지명</label>
         <input class="mt12" type="text" placeholder="배송지명을 입력해주세요." />
       </div>
-      <div class="wrap-input mt16">
+      <div class="flex col mt16">
         <label class="txtl txt-input" for="input">기본주소</label>
         <div class="search-inp flex row mt12">
           <input class="mr8 flex-3" type="text" placeholder="102호." disabled/>
           <a class="btn btn-blue-outline ml8 flex-1">검색</a>
         </div>
       </div>
-      <div class="wrap-input mt24">
+      <div class="flex col mt24">
         <label class="txtl txt-input" for="input">상세주소</label>
         <input class="mt12" type="text" placeholder="상세주소를 입력해주세요." />
       </div>
