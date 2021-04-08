@@ -36,6 +36,10 @@
   background: url('../assets/chevron_left.svg') no-repeat;
 }
 
+.icon-chevron-right {
+  background: url('../assets/chevron_right.svg') no-repeat;
+}
+
 .icon-chevron-top {
   background: url('../assets/chevron_top.svg') no-repeat;
 }
@@ -74,4 +78,8 @@
 
 .icon-alt-quest {
   background: url('../assets/alert_quest.svg') no-repeat;
+}
+
+.icon-setting {
+  background: url('../assets/settings.svg') no-repeat;
 }
