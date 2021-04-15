@@ -1,4 +1,5 @@
-body, html { max-width: none; background: #000; color: #fff;}
+body, html { display: inline-block;
+   max-width: none; background: #000; color: #fff;}
 
 .container {
   display: inline-block;
