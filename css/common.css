@@ -1,4 +1,4 @@
-html, body {
+body {
   padding: 0;
   margin: 0 auto;
   letter-spacing: -0.2px;
@@ -17,9 +17,24 @@ a {
   box-sizing: border-box;
   vertical-align: middle;
   text-decoration: none;
+  color: #00B9EF;
 }
 a:visited{
-  color: #323232;
+
+  text-decoration: none;
+  color: #00B9EF;
+}
+a:link {
+  color: #00B9EF;
+  text-decoration: none;
+}
+a:active {
+    color: #00B9EF;
+  text-decoration: none;
+}
+a:hover {
+    color: #00B9EF;
+    text-decoration: none;
 }
 
 

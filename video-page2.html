@@ -6,31 +6,17 @@
 
     <link rel="stylesheet" type="text/css" href="./css/common.css" />
     <link rel="stylesheet" type="text/css" href="./css/definition.css" />
-    <link rel="stylesheet" type="text/css" href="./css/video-page.css" />
+    <link rel="stylesheet" type="text/css" href="./css/vid.css" />
     <link rel="stylesheet" type="text/css" href="./css/icon.css" />
-
-    <style>
-    .slider {
-        position: absolute;
-        width: 100%;
-        top: 0;
-        height: 100%;
-        overflow: hidden;
-        transition: all 1s;
-    }
-
-    .slider.close {
-        display: none;
-        top: 100%;
-        height: 0;
-    }
-</style>
     <title></title>
   </head>
   <body>
-    <div class="container">
-      <video class="i-video" id="showLive" poster="https://rabang-s3.s3.amazonaws.com/local/public/show/poster/image/2021/04/11/KakaoTalk_Photo_2021-04-11-21-28-00.jpeg" autoplay="" muted="" playsinline="" src="blob:https://dev.rabang.live/d96c7d77-243d-4452-8efe-4b658aee100b"
-      autoplay="" muted="" playsinline=""style="max-width: 100vw"></video>
+    <div class="test">
+
+
+      <div class="container">
+      <video class="i-video" style="max-width: 100vw" poster="https://rabang-s3.s3.amazonaws.com/local/public/show/poster/image/2021/04/11/KakaoTalk_Photo_2021-04-11-21-28-00.jpeg" autoplay="" muted="" playsinline="" src="blob:https://dev.rabang.live/d96c7d77-243d-4452-8efe-4b658aee100b"></video>
+
       <div class="header row flex f-between">
         <div class="row flex ahw">
           <div class="wrap-profile">
@@ -101,7 +87,7 @@
           </div>
         </div>
       </div>
-
+    </div>
 <!--
       <div class="wrapPopup">
         <hr class="popup-line" />
@@ -111,10 +97,8 @@
       </div>
 -->
   </body>
-  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 
   <script>
-  var viewportHeight = $('.banner').outerHeight();
-$('.banner').css({ height: viewportHeight });
+
   </script>
 </html>
