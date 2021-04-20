@@ -124,6 +124,10 @@ li {
   padding-bottom: 0.75rem;
   background-color: #00B9EF;
   text-decoration: none;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .btn-gray-outline {
